@@ -1,0 +1,46 @@
+{
+	"transType": "ServiceRequest",
+	"transSubType": "Charge",
+	"sourceRefId": "1E7E0F4706C70E90B20160505683145E",
+	"methodOfPayment": "CRE",
+	"customerAccount": "CustAcc1234",
+	"status": "Active",
+	"horizonRefNumbers": {
+		"caseNumber": "SN1234",
+		"serviceRequest": "SR1234",
+		"serviceOrder": "SO1234"
+	},
+	"fees": [{
+			"feeType": "DED",
+			"amount": 100,
+			"isTax": false,
+			"taxType": null,
+			"taxRegion": null
+		},
+		{
+			"feeType": "DED",
+			"amount": 7.3,
+			"isTax": true,
+			"taxType": "HST",
+			"taxRegion": "ON"
+		},
+		{
+			"feeType": "DED",
+			"amount": 2.1,
+			"isTax": true,
+			"taxType": "GST",
+			"taxRegion": "ON"
+		},
+		{
+			"feeType": "SDEL",
+			"amount": 10,
+			"isTax": false,
+			"taxType": null,
+			"taxRegion": null
+		}
+	],
+	"additionalInfo": {
+		"name1": "value1",
+		"name2": "value2"
+	}
+}
